@@ -1,5 +1,6 @@
 ###   版本说明
-https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E
+版本[链接](https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E
+)。
 
 * Spring Cloud Alibaba Version    ： 2.2.7.RELEASE
 * Spring Boot Version   ：2.3.12.RELEASE
@@ -9,3 +10,8 @@ https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4
 * RocketMQ Version    4.6.1
 * Dubbo Version   2.7.13
 * Seata Version   1.3.0
+
+
+### nacos配置
+* 下载[链接](https://github.com/alibaba/nacos)
+* 启动nacos命令：sh startup.sh -m standalone
