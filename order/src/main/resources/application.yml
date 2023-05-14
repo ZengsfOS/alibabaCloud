@@ -11,3 +11,14 @@ spring:
         username: nacos
         password: nacos
         namespace: public
+
+logging:
+  level:
+    com.zengsf.order.feign: debug
+
+# feign日志局部配置
+#feign:
+#  client:
+#    config:
+#      stock-service:
+#        logger-level: basic
