@@ -7,8 +7,9 @@
     <artifactId>springcloudalibaba</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>Order</module>
+        <module>order</module>
         <module>stock</module>
+        <module>stock2</module>
     </modules>
     <name>springcloudalibaba</name>
     <description>Spring Cloud Alibaba</description>
