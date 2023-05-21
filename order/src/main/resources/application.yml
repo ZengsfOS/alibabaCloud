@@ -3,22 +3,26 @@ server:
 
 spring:
   application:
-    name: order-service
+    name: nacos-config-order
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
         username: nacos
         password: nacos
-        namespace: public
+        enabled: true
 
 logging:
   level:
     com.zengsf.order.feign: debug
 
 # feign日志局部配置
-#feign:
-#  client:
-#    config:
-#      stock-service:
-#        logger-level: basic
+feign:
+  client:
+    config:
+      stock-service:
+        logger-level: basic
+        # 连接超时时间
+        connect-timeout: 5000
+        # 请求超时时间
+        read-timeout: 3000
